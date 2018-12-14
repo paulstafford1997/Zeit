@@ -12,6 +12,7 @@ const Index = props => (
       <li><Link href="/sport"><a>Sport News</a></Link></li>
       <li><Link href="/ign"><a>Gaming News</a></Link></li>
     </ul>
+    <h3><Link href="https://newsapi.org"><a>Powered by News API</a></Link></h3>
   </div>
 );
 

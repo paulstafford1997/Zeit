@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
-    "start": "NODE_ENV=production node server.js"
+    "start": "next start -p 8000"
   },
   "keywords": [],
   "author": "",
@@ -19,5 +19,8 @@
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
     "styled-jsx": "^3.1.1"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0"
   }
 }
